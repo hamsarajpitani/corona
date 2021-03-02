@@ -1,0 +1,105 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:3rem;
+   
+    padding-left: 9rem;
+    
+    
+
+    h1{ 
+        font-size: 4rem;
+        word-spacing: .4rem;   
+    }
+    
+    p{
+        opacity: .5;
+        font-size: 1.3rem;
+    }
+
+    h4{
+        text-transform: capitalize;
+        opacity: .8;
+    }
+
+}
+.hero{
+
+    &__text{
+        
+    }
+    &__data{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+
+        .box{
+            background-color: rgba(255, 255, 255, 0.24);
+            border-radius: 1rem;
+            padding: 1.3rem;
+            margin-right: 2rem;
+            width: 8rem;
+            height: 8.5rem;
+
+           
+            
+            &__number{
+                font-size: 2rem;
+                letter-spacing: .3rem;
+            }
+
+            &__text{
+                text-transform: capitalize;
+                opacity: .3;
+            }
+
+
+            &__icon{
+
+                font-size: 2.2rem;
+                margin-bottom: 1.4rem;
+
+                &--right{
+                    color:#00a8ff;
+                }
+
+                &--plus{
+                    color: #4cd137;
+                }
+
+                &--heart{
+                    color: #fbc531;
+                }
+
+                &--minus{
+                    color:#8c7ae6;
+                }
+
+            }
+        }
+
+       
+       
+    }
+
+    &__img{
+        overflow: hidden;
+        img{
+            filter: opacity(.7) brightness(90%);
+            overflow: hidden;
+            position: absolute;
+            top: 3.4rem;
+            right: -12.8rem;
+            bottom: 0;
+            height: 62rem;
+        }
+        
+    }
+
+}
+
+

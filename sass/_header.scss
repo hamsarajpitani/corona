@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.header{
+
+    &__icon{
+        height: 5rem;
+      
+    }
+    
+    &__list{
+        display: flex;
+        align-items: center;
+      
+        
+        li{
+            list-style: none;
+            margin: 1rem;
+            margin-right: 4rem;
+
+        }
+
+        a{
+            text-transform: capitalize;
+            font-weight: 450;
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            opacity: .5;
+        }
+    }
+
+    &__right{
+
+        &__icon{
+            height: 2rem;
+        }
+    }
+
+}

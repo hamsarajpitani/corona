@@ -1,0 +1,30 @@
+.btn{
+    padding: 1.4rem 3rem;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 800;
+    text-transform: capitalize;
+    border-radius: 11rem;
+    background-color: rgb(69, 196, 238);
+
+    &:hover{
+        background-color: rgba(69, 196, 238, 0.671);
+    }
+}
+
+
+//!!helper classes google atomic css
+
+.mg-sm{
+    margin-bottom: 2rem;
+}
+.mg-md{
+    margin-bottom: 4rem;
+}
+.mg-lg{
+    margin-bottom: 6rem;
+}
+.mg-bg {
+    margin-bottom: 8rem;
+}

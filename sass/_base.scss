@@ -1,0 +1,38 @@
+$swatch_1: #200a63;
+$swatch_2: #60388f;
+$swatch_3: #4036a8;
+$swatch_4: #100612;
+$swatch_5: #b1376a;
+$swatch_6: #383744;
+$swatch_7: #efa6d7;
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    // font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem ;  
+    overflow: hidden;   
+   
+} 
+
+.container{  
+    background-image: linear-gradient(to right bottom,$swatch_3,$swatch_2); 
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}       
+
+@media (max-width : 768px){
+    html{
+        font-size: 50%;
+    }
+}
