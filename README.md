@@ -1,3 +1,5 @@
+![Screenshot_20210203_183859](https://user-images.githubusercontent.com/33552374/110746257-8b46a200-8262-11eb-96e9-9f09537e8e87.png)
+
 # covid19-tracker
 
 PLEASE DEPLOY AND RUN ON LOCAL SERVER 
